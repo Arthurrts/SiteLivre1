@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    text-decoration: none;
+}
+
+header{
+    background-image: url(https://images6.alphacoders.com/734/734707.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.wallpaper{
+    display: flex;
+    justify-content: center;
+    padding: 88px 0;
+}
+
+.wallpaper .text{
+    margin: 200px;
+    text-align: center;
+}
+
+.text h1{
+    font-size: 98px;
+    color: white;
+    text-shadow: #f889f4 2px 10px 1px;
+}
+
+.text p{
+    font-size: 24px;
+    color: white;
+    margin: 18px 0;
+    text-shadow: #f889f4 2px 1px 2px;
+}
+
+.disco{
+    padding-top: 88px;
+    padding-bottom: 430px;
+}
+
+.text-disco{
+    float: left;
+    width: 60%;
+    text-align: justify;
+    padding-right: 5%;
+    padding-top: 4%;
+}
+
+.text-disco h2, .text-albuns h2{
+    color: #f889f4;
+    background-color: white;
+    width: 37%;
+    padding: 2.5px 2.5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #f889f4;
+    border-style: solid;
+    box-shadow: #f889f4 2px 1px 2px;
+}
+
+.albuns p, .text-disco p{
+    font-size: 20px;
+}
+
+.image-disco{
+    float: right;
+    transform: translate(10%, auto);
+    width: 40%;
+}
+
+.image-disco img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.albuns{
+    background: #DDA0DD;
+    padding-top: 88px;
+    padding-bottom: 40px;
+}
+
+.text-albuns p{
+    color: white;
+}
+
+.all-albuns{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    padding-top: 5%;
+}
+
+.all-albuns img{
+    border-radius: 10%;
+    padding-bottom: 10px;
+}
+
+.all-albuns2 p:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: #f889f4;
+}
+
+.all-albuns2 p{
+    background-color: #f889f4;
+    position: relative;
+    left: 60px;
+    width: 70%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+    border-color: #f889f4;
+    border-style: solid;
+    box-shadow: #f889f4 1px 1px 2px;
+    color: white;
+}
+
+.style-albuns{
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+.end{
+    background: white;
+    padding: 1% 0;
+    color: #f889f4;
+    text-shadow: black 0.5px 0.5px 0.5px;
+}
